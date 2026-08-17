@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 abstract class Animal {
     private String name;
-    private static int createdCount = 0;   
+    private static int createdCount = 0;  
 
     public Animal(String name) {
         this.name = name;
